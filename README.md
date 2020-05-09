@@ -30,7 +30,7 @@ $ sudo docker network create \
 Execute os comandos abaixo para criar a imagem para container da aplicação.
 
 ```bash
-$ sudo docker build --tag "myapplication/dev:202001" "${HOME}/myworkspace/myapplication/docker/image"
+$ sudo docker build --tag "myapplication/dev:202001" "${HOME}/myworkspace/myapplication/docker"
 $ sudo docker images
 ```
 
